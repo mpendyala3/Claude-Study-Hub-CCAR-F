@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CCAR-A2 Exercises — Claude Study Hub</title>
+<meta name="description" content="Fourteen graded exercises written to the Attempt-2 CCAR-F objectives, weighted towards the seven scored at 0%: tool distribution, context: fork, review architecture, dynamic decomposition, tool_choice sequencing, CI invocation and test generation.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<script src="assets/js/app.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span> Claude Study Hub <small>&middot; CCAR-F, Attempt 2</small></a>
+    <nav class="nav nav-main">
+      <a href="index.html" data-sect="home">Home</a>
+      <a href="a1-index.html" data-sect="a1">CCAR-A1</a>
+      <a href="a2-index.html" data-sect="a2">CCAR-A2</a>
+      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">&#9790;</button>
+    </nav>
+  </div>
+  <div class="subbar">
+    <nav class="nav nav-sub">
+      <span class="navgroup" data-track="a2">
+        <span class="navlabel">CCAR-A2</span>
+        <a href="a2-index.html">Overview</a>
+        <a href="a2-docs.html">Docs</a>
+        <a href="a2-exercises.html">Exercises</a>
+        <a href="a2-exam.html">Exam</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap layout">
+
+  <aside class="sidebar">
+    <h4>Exercises</h4>
+    <div id="exNav"></div>
+    <h4>Elsewhere</h4>
+    <a href="a2-docs.html">← CCAR-A2 Documentation</a>
+    <a href="a2-exam.html">CCAR-A2 mock exam →</a>
+  </aside>
+
+  <main class="content">
+    <div class="track-badge"><b>CCAR-A2</b> Attempt-2 blueprint</div>
+    <div class="eyebrow">CCAR-A2 Exercises · hands-on</div>
+    <h1>Fourteen exercises, aimed at what you actually got wrong</h1>
+    <p class="lede">Written to the Attempt-2 objectives and weighted deliberately: seven of these fourteen
+    target objectives you scored <strong>0%</strong> on, and the rest target the 50&ndash;67% tail. Nine are graded
+    in your browser as you type; one is a terminal lab. The checklists name the exact properties the objective is
+    written around, so a partial score tells you which property you missed.</p>
+
+    <div class="note rule">
+      <b>Do these in order</b>
+      They are sequenced by priority, not by difficulty. Exercises 1&ndash;7 cover the zeros: review architecture,
+      CI invocation, <code>context: fork</code>, tool distribution, <code>tool_choice</code> and sequencing,
+      dynamic decomposition, and test generation. Exercises 8&ndash;13 cover the partial credits. Exercise 14 is a
+      terminal lab that makes three of the zeros physical &mdash; if you only have an hour, do exercise 5 and then
+      the lab.
+    </div>
+
+    <div class="note rule">
+      <b>Work them without the reference solution open</b>
+      Every exercise reveals a full worked answer, but the checklist is the teaching device: it names each
+      requirement the exam grades on. Get to a partial score first, read which checks failed, and fix them — that
+      loop is what transfers to exam day. Your editor contents are saved locally in this browser, so you can come
+      back to a half-finished answer.
+    </div>
+
+    <div class="grid grid-3" style="margin:22px 0 8px">
+      <div class="card"><h4 class="mt0">Browser-graded</h4><p class="small muted mb0">Write JSON or code into the editor and hit <em>Check</em>. Each check is a requirement the exam actually tests, phrased so a failure tells you what to change.</p></div>
+      <div class="card"><h4 class="mt0">Classification drills</h4><p class="small muted mb0">Fast recall for the decisions the exam repeats: which config surface, which hook event, which intervention, escalate or not.</p></div>
+      <div class="card"><h4 class="mt0">Terminal labs</h4><p class="small muted mb0">Run against a real Claude Code install. Deliberately break things — wrong exit code, wrong matcher, missing <code>-p</code> — and watch the failure mode.</p></div>
+    </div>
+
+    <div id="exRoot"></div>
+
+    <div class="card" style="margin-top:30px">
+      <div class="spread">
+        <div><strong>Done with the drills?</strong><div class="small muted">Sit the timed mock and find out what actually stuck.</div></div>
+        <a class="btn" href="a1-exam.html">Start the mock exam →</a>
+      </div>
+    </div>
+  </main>
+</div>
+
+<footer class="footer"><div class="wrap">Claude Study Hub · Independent study material; not affiliated with or endorsed by Anthropic.</div></footer>
+<script src="assets/js/ex-helpers.js"></script>
+<script src="assets/js/exercises-a2.js"></script>
+<script src="assets/js/ex-engine.js"></script>
+</body>
+</html>

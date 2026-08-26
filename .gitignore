@@ -1,0 +1,7 @@
+# The site is the repo -- there is no build step and nothing to generate.
+# Only local editor and OS cruft is excluded.
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Study Hub · CCAR-F — prepare for the Claude Certified Architect exam</title>
+<meta name="description" content="Study site for the Anthropic Claude Certified Architect – Foundations exam (CCAR-F), carried as two tracks built from the two published objective lists: documentation, browser-graded exercises and a hard timed mock exam for each.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+<script src="assets/js/app.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">C</span> Claude Study Hub <small>&middot; CCAR-F</small></a>
+    <nav class="nav nav-main">
+      <a href="index.html" data-sect="home">Home</a>
+      <a href="a1-index.html" data-sect="a1">CCAR-A1</a>
+      <a href="a2-index.html" data-sect="a2">CCAR-A2</a>
+      <button class="icon-btn" id="themeBtn" onclick="toggleTheme()" title="Toggle theme" aria-label="Toggle theme">&#9790;</button>
+    </nav>
+  </div>
+</header>
+
+<main class="narrow content">
+
+  <div class="eyebrow">Claude Study Hub &middot; CCAR-F</div>
+  <h1>Claude Certified Architect &mdash; Foundations</h1>
+  <p class="lede">One exam, carried as <strong>two tracks</strong>. Its published objective list changed materially
+  between two sittings, so rather than merging them this site keeps both: <strong>CCAR-A1</strong> from the
+  first list, <strong>CCAR-A2</strong> from the second. Each track is self-contained &mdash; an
+  <strong>Overview</strong> with the blueprint, <strong>Docs</strong> covering every objective,
+  <strong>Exercises</strong> graded in the browser, and a timed <strong>Mock exam</strong> written harder than the
+  real one. No accounts, no network calls.</p>
+
+  <div class="grid grid-4" style="margin:26px 0 34px">
+    <div class="stat"><div class="k">2</div><div class="l">Tracks</div></div>
+    <div class="stat"><div class="k">38</div><div class="l">Exercises</div></div>
+    <div class="stat"><div class="k">120</div><div class="l">Mock questions</div></div>
+    <div class="stat"><div class="k">720</div><div class="l">Score needed to pass</div></div>
+  </div>
+
+  <h2>Choose a track</h2>
+
+  <div class="grid grid-2">
+
+    <div class="card homecard">
+      <div class="track-badge"><b>CCAR-A1</b> Attempt 1</div>
+      <h3>Built from the first objective list</h3>
+      <p class="small muted">Twenty-nine objectives across nine test topics: orchestration safeguards, hooks and
+      permissions, Messages API mechanics, extraction schemas, tool design and MCP. Every topic carries a worked
+      scenario &mdash; what went wrong somewhere real, and the fix. <strong>Start here</strong> if you are new to
+      the exam.</p>
+      <div class="pagelinks">
+        <a href="a1-index.html">Overview</a>
+        <a href="a1-docs.html">Docs</a>
+        <a href="a1-exercises.html">Exercises</a>
+        <a href="a1-exam.html">Exam</a>
+      </div>
+    </div>
+
+    <div class="card homecard">
+      <div class="track-badge"><b>CCAR-A2</b> Attempt 2</div>
+      <h3>Built from the second objective list</h3>
+      <p class="small muted">Thirty-seven objectives across five domains, written deepest on the seven that scored
+      0%: dynamic decomposition, review architecture and configurations, <code>context: fork</code>, test
+      generation, tool distribution, and <code>tool_choice</code> sequencing. Its mock exam spans two or three
+      objectives per item, like the real paper.</p>
+      <div class="pagelinks">
+        <a href="a2-index.html">Overview</a>
+        <a href="a2-docs.html">Docs</a>
+        <a href="a2-exercises.html">Exercises</a>
+        <a href="a2-exam.html">Exam</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="note rule" style="margin-top:30px">
+    <b>How to work a track</b>
+    Read the Docs, then do every Exercise, then sit the Mock exam in <em>Exam mode</em> &mdash; 120 minutes, no
+    feedback until you submit. When you get a question wrong, its topic tag is the exact section of the Docs to go
+    back to. Both mocks are deliberately harder than the live paper, so aim for <strong>850+</strong> before you
+    book.
+  </div>
+
+  <div class="note warn" style="margin-top:18px">
+    <b>Independent study material</b>
+    Everything here was written from published objective lists and documented Claude product behaviour. It contains
+    no recalled or leaked exam content, and it is not affiliated with or endorsed by Anthropic.
+  </div>
+
+</main>
+
+<footer class="footer"><div class="narrow">Claude Study Hub &middot; CCAR-F &mdash; independent study material; not affiliated with or endorsed by Anthropic.</div></footer>
+
+</body>
+</html>
